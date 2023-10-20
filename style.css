@@ -5,20 +5,17 @@
 }
 
 /* Nav Bar */
-.logo ul {
+.navbar {
+    background-color: aliceblue;
     display: flex;
-    background-color: white;
-    list-style-type: none;
-    
-}
-ul li {
-    border: 2px solid black;
-}
-.logo .ghost {
-    height: 40px;
-}
-ul li .git {
-   height: 40px;  
-   order: 3;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.nav-links {
+    display: flex;
+}
+
+.navbar .logo .git {
+    height: 50px;
+}
